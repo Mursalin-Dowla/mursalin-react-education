@@ -1,0 +1,46 @@
+[
+    {
+      "id": "1",
+      "name": "Md Mursalin Dowla",
+      "rating": 5.0,
+      "img": "../src/images/pic2.jpg",
+      "review": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+        "id": "2",
+        "name": "Ramesh Karmakar",
+        "rating": 5.0,
+        "img": "../src/images/pic2.jpg",
+        "review": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+      },
+      {
+        "id": "3",
+        "name": "Afrose Shupty",
+        "rating": 4.9,
+        "img": "../src/images/pic1.jpg",
+        "review": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+      },
+      {
+        "id": "4",
+        "name": "Mahabuba Himu",
+        "rating": 4.8,
+        "img": "../src/images/pic1.jpg",
+        "review": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+      },
+      {
+        "id": "5",
+        "name": "K.M. Nayeem Ahmed",
+        "rating": 5.0,
+        "img": "../src/images/pic2.jpg",
+        "review": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+      },
+      {
+        "id": "6",
+        "name": "Md Rabius Sunny",
+        "rating": 4.7,
+        "img": "../src/images/pic2.jpg",
+        "review": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed qua1"
+      }
+    
+  ]
+  

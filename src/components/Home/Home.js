@@ -1,7 +1,12 @@
 import React from 'react';
+import useReview from '../../hooks/useReview';
 import backgroundImage from '../../images/home1.jpg'
+import EachReview from '../EachReview/EachReview';
 
 const Home = () => {
+    const [review, setReview] = useReview();
+    const cuttedReview = review.slice(0,3);
+
     return (
         <div className='md:m-10 m-5 grid grid-cols-1 min-h-screen'>
             <div className='grid md:grid-cols-2 grid-cols-1 justify-items-center mb-10'>
@@ -15,7 +20,7 @@ const Home = () => {
                   <div className='xl:mt-[-90px] grid grid-cols-1 justify-items-center mt-5'>
                   <p className='text-black md:text-lg text-sm font-semibold'>We are the ultimate choice. The Best Education Consultant You Can Get.
                   Come and fullfill your thurst of learning. We are your best helper. </p>
-                  <button className='bg-slate-200 hover:bg-slate-300 hover:text-white rounded-xl w-[150px] h-[50px] shadow-lg hover:shadow-[#f80] mt-5'>Explore More</button>
+                  <button className='bg-slate-200 hover:bg-lime-400 hover:text-white rounded-xl w-[150px] h-[50px] shadow-lg hover:shadow-[#f80] mt-5'>Explore More</button>
                   </div> 
                 </div>
                 <div className='relative'>
@@ -26,8 +31,16 @@ const Home = () => {
                 </div>
             </div>
             <div className='grid grid-cols-1 justify-items-center mt-10'>
-                <div className='border border-t-0 border-r-0 border-l-0'>
-                  <h1>OUR ALUMNI TELLS ABOUT US</h1>
+                <div className='border-2 border-t-0 border-r-0 border-l-0 border-b-[#f80]'>
+                  <h1 className='text-lg text-lime-400 font-semibold font-sherif'>OUR ALUMNI TELLS ABOUT US</h1>
+                </div>
+                <div className='mt-10 m-10'>
+                    {
+                        cuttedReview.map(item=><EachReview 
+                        key={item.id}
+                        item={item}
+                        />)
+                    }
                 </div>
                 
             </div>

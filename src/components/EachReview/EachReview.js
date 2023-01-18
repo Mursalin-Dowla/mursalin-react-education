@@ -4,7 +4,7 @@ import pic2 from '../../images/pic2.jpg'
 const EachReview = (props) => {
     const {name, rating, review} = props.item;
     return (
-        <div className='grid grid-cols-1 justify-items-center mt-10 md:ml-32 md:mr-32 shadow-lg shadow-[#f80] p-5'>
+        <div className='grid grid-cols-1 justify-items-center mt-10 md:ml-32 md:mr-32 shadow-lg hover:shadow-[#f80] p-5'>
             <div>
                 <img className='w-10 h-10 rounded-full' src={pic2} alt="" />
             </div>

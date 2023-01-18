@@ -11,7 +11,7 @@ const NavBar = () => {
             <div className='md:mr-28'>
                 <ul className='flex justify-center'>
                 <CustomLink to='/home'>Home</CustomLink>
-                <CustomLink to='/review'>Review</CustomLink>
+                <CustomLink to='/review'>Reviews</CustomLink>
                 <CustomLink to='/dashboard'>Dashboard</CustomLink>
                 <CustomLink to='/blogs'>Blogs</CustomLink>
                 <CustomLink to='/about'>About</CustomLink>

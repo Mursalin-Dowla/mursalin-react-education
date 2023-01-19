@@ -12,7 +12,7 @@ const Course = () => {
                 </div>
                 <div className='mt-5 grid grid-cols-1 justify-items-center'>
                     <p className='text-lime-400 font-semibold text-2xl font-sherif  md:p-2 '>Web Developement</p>
-                    <button className='border hover:border-lime-400 hover:shadow-lg pl-2 pr-2 rounded-md m-1 bg-gray-200'>Details</button>
+                    <Link to={'/courses/web'} className='border hover:border-lime-400 hover:shadow-lg pl-2 pr-2 rounded-md m-1 bg-gray-200'>Details</Link>
                 </div>
             </div>
             <div className='md:m-10 m-5 grid grid-cols-1 justify-items-center'>

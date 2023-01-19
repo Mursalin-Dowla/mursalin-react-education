@@ -8,6 +8,7 @@ import Blogs from './components/Blogs/Blogs';
 import Footer from './components/Footer/Footer';
 import Course from './components/Course/Course';
 import NotFound from './components/NotFound/NotFound';
+import CourseDetails from './components/CourseDetails/CourseDetails';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />}></Route>
         <Route path='/blogs' element={<Blogs />}></Route>
         <Route path='/courses' element={<Course />}></Route>
-        <Route path='/courses/:app' element={<Course />}></Route>
+        <Route path='/courses/:app' element={<CourseDetails />}></Route>
+        <Route path='/courses/:web' element={<CourseDetails />}></Route>
         <Route path='/*' element={<NotFound />}></Route>
       </Routes>
       <Footer />

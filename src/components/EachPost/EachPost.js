@@ -15,7 +15,7 @@ const EachPost = (props) => {
                 {name}</span>
                 </p>
             <p><small><span className='font-semibold'>Caption:</span> {title}</small></p>
-            <p className='text-black text-xl'>{body}</p>
+            <p className='text-black text-xl shadow-lg p-5 rounded-xl ml-2'>{body}</p>
             <p className='mt-2'><FontAwesomeIcon title='Like' className='mt-1 cursor-pointer text-gray-400 hover:text-black' icon={faThumbsUp}></FontAwesomeIcon>
             <span className='ml-3'>
                 <FontAwesomeIcon title='DisLike' className='mt-1 cursor-pointer text-gray-400 hover:text-black' icon={faThumbsDown}></FontAwesomeIcon>

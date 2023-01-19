@@ -14,7 +14,7 @@ const NavBar = () => {
                 <CustomLink to='/review'>Reviews</CustomLink>
                 <CustomLink to='/dashboard'>Dashboard</CustomLink>
                 <CustomLink to='/blogs'>Blogs</CustomLink>
-                <CustomLink to='/about'>About</CustomLink>
+                <CustomLink to='/courses'>Courses</CustomLink>
                 </ul>
             </div>
         </div>
